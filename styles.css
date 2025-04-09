@@ -1,0 +1,56 @@
+/* aca le doy estilos a mi body */
+body{
+    background-color: #f0f0f0;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+header,footer{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    color: #0fc;
+    margin: 0 10px;
+}
+h1,h2{
+    color: #09c;
+}
+img {
+    width: 350px;
+    height: auto;
+    
+}
+form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px #ccc;
+    width: 60%;
+    margin-bottom: 20%;
+}
+input, textarea{
+    width: 40%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+}
+button{
+    background-color: #0099cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #079;
+}
+form:hover{
+    background-color: #0fc;
+}
